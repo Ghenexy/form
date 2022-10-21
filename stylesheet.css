@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+nav{
+    background-color: blueviolet;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+input{
+    border: 0px solid;
+    background-color: rgb(207, 195, 195);
+    width: 25em;
+    padding: 10px;
+    margin: 5px;
+}
+textarea{ 
+    border: 0px solid;
+    background-color: rgb(207, 195, 195);
+    width: 26em;
+    resize: none;
+}
+.submit{
+    background-color: blueviolet;
+    border: 0px solid;
+    padding: 20px;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color: white;
+    cursor: pointer;
+    color: rgba(107, 253, 107, 0.705);
+}
+
+.submitted{
+    background-color: red;
+}
