@@ -21,8 +21,6 @@
 //       child.innerHTML = `<div>${input1.value}</div><div>${input2.value}</div><div>${input3.value}</div>`
 //       result.appendChild(child)
 //     };
-
-
 //You are to build a todo app that receives an input and display it 
 // Styling is unnecessary.
 
